@@ -1,2 +1,2 @@
-# H3-K27M-Hematopoiesis
-This code accompanies the article "H3-K27M mutation alters the dynamics of human hematopoietic stem cells and delays erythroid differentiation".
+# H3-K27M mutation alters the dynamics of human hematopoietic stem cells and delays erythroid differentiation
+This repository accompanies the article "H3-K27M mutation alters the dynamics of human hematopoietic stem cells and delays erythroid differentiation". It includes the original blood cell count tables from the xenotransplantation mouse model and the necessary code for the mathematical analysis.
