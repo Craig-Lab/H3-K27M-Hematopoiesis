@@ -10,7 +10,7 @@ Authors: Mia Brunetti<sup>1,2</sup>; Hassan Dakik<sup>3</sup>; Fatemeh Beigmoham
 ## Repository structure
 | Folder | Description |
 |:-----|:------------|
-| Structural identifiability | MATLAB M-files necessary to create ODE models stored in MAT-files read by STRIKE-GOLDD.|
+| Structural identifiability | MATLAB M-files necessary to create the ODE models stored in MAT-files and read by STRIKE-GOLDD.|
 | Data | ... |
 | Models | ... |
 | Parameter estimation | ... |
