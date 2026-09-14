@@ -16,5 +16,6 @@ Authors: Mia Brunetti<sup>1,2</sup>; Hassan Dakik<sup>3</sup>; Fatemeh Beigmoham
 | Parameter estimation | Adaptive simulated annealing (ASA) functions and commands for parameter estimation. |
 | Parsimony analysis | Functions and commands for parsimony analysis. |
 | TM-RWFS | Trajectory-Matching Random-Walk Feasibility Sampling (TM-RWFS) commands for parameter distribution. |
-| Results | CSV-files containing the results for parameter estimation, accepted model  |
-| Figure visualization | ... |
+| Statistical test | Mann-Whitney U test on parameter distribution commands. |
+| Results | CSV-files containing the results for parameter estimation, 95% credible intervals, and accepted trajectories for the selected models model. |
+| Figure visualization | Functions, template, and commands for reproducing result figures. |
