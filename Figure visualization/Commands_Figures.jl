@@ -1,4 +1,4 @@
-using PlotlyJS, CSV, DataFrames, DifferentialEquations, Statistics, StatsBase, HypothesisTests, PosteriorStats
+using PlotlyJS, CSV, DataFrames, DifferentialEquations, Statistics, HypothesisTests
 
 include("FiguresFunctions.jl");
 include("craig_lab_template.jl");
