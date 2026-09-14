@@ -8,6 +8,8 @@ p_WT = Matrix(df_WT[:,3:end]);
 labs_WT = labs;
 
 # H3-K27M
+bloodModel_K27M = "Transiting HSCs & MPP Self-Renewal"; 
+include(joinpath(@__DIR__, "..", "Models", bloodModel_K27M * ".jl"));
 df_K27M = CSV.read(joinpath(@__DIR__,"..", "Results", "Accepted Parameters (K27M).csv"), DataFrame);
 p_K27M = Matrix(df_K27M[:,3:end]);
 labs_K27M = labs; 
