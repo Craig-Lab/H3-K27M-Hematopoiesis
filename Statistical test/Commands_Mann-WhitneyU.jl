@@ -1,5 +1,4 @@
-using Statistics, Distributions, DifferentialEquations, StatsBase, HypothesisTests, PosteriorStats
-using JLD2, PlotlyJS, CSV, DataFrames
+using StatsBase, HypothesisTests, CSV, DataFrames
 
 # H3-WT
 CSV.read(joinpath(@__DIR__,"..", "Results", "Accepted Parameters (WT).csv"), DataFrame);
