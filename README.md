@@ -1,5 +1,5 @@
 # H3-K27M mutation alters the dynamics of human hematopoietic stem cells and delays erythroid differentiation
-This repository accompanies the article "H3-K27M mutation alters the dynamics of human hematopoietic stem cells and delays erythroid differentiation". It includes the original blood cell count tables from the xenotransplantation mouse model (.xlsx files "Original count table - EXP1 & EXP2") and the necessary code for the mathematical analysis.
+This repository accompanies the article "H3-K27M mutation alters the dynamics of human hematopoietic stem cells and delays erythroid differentiation". It includes the original blood cell count tables from the xenotransplantation mouse model (XLSX-files "Original count table - EXP1 & EXP2") and the necessary code for the mathematical analysis.
 
 Authors: Mia Brunetti<sup>1,2</sup>; Hassan Dakik<sup>3</sup>; Fatemeh Beigmohammadi<sup>2</sup>; Kolja Eppert<sup>3,4</sup>; Morgan Craig<sup>1,2</sup><br>
 <sup>1</sup>Département de Mathématiques et de Statistiques, Université de Montréal, Montréal, Canada<br>
@@ -10,7 +10,7 @@ Authors: Mia Brunetti<sup>1,2</sup>; Hassan Dakik<sup>3</sup>; Fatemeh Beigmoham
 ## Repository structure
 | Folder | Description |
 |:-----|:------------|
-| Structural identifiability | ...|
+| Structural identifiability | MATLAB M-files necessary to create ODE models stored in MAT-files read by STRIKE-GOLDD.|
 | Data | ... |
 | Models | ... |
 | Parameter estimation | ... |
