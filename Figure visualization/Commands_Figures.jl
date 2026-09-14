@@ -182,8 +182,6 @@ for i in 1:nPops_WT
     );
 
     display(f_WT)
-    # figpath = pwd()*"/"*bloodModel_WT*"/Figures/";
-    # savefig(f_WT,figpath*namePops_WT[i]*" WT.svg";width=width_f, height=height_f);
 
 end
 
@@ -268,8 +266,6 @@ for i in 1:nPops_K27M
     );
 
     display(f_K27M)
-    # figpath = pwd()*"/"*bloodModel_K27M*"/Figures/";
-    # savefig(f_K27M,figpath*namePops_K27M[i]*" K27M.svg";width=width_f, height=height_f);
 
 end
 
@@ -412,8 +408,6 @@ for i in eachindex(com)
     );
 
     display(his)
-    # figpath = pwd()*"/";
-    # savefig(his,figpath*"Param $i.svg";width=width_f, height=height_f);
 end
 
 ## =============================
@@ -581,7 +575,6 @@ layout = Layout(
 
 hcomp = plot(vcat(lines, [trace]...), layout);
 display(hcomp)
-# savefig(hcomp,pwd()*"/Parameter Comparison.svg"; width = Int(round(width_f)), height = Int(round(height_f)));
 
 ## =============================
 # Figure S2
@@ -763,11 +756,7 @@ for i in 1:nPops_WT
 
     common_WT = plot([p_WT, p_K27M, summary_WT..., summary_K27M...],layout_f);
     display(common_WT)
-    # figpath = pwd()*"/";
-    # savefig(common_WT,figpath*namePops_WT[i]*" - End time_d point.svg";width=375, height=375);
 end
-
-# CSV.write("tTest (unequal variance).csv", df_tTest);
 
 ## =============================
 # Figure S4A
@@ -859,8 +848,6 @@ for i in 1:nPops_WT
     );
 
     display(f_norm)
-    # figpath = pwd()*"/";
-    # savefig(f_norm,figpath*namePops_WT[i]*" - Normalized WT.svg";width=width_f, height=height_f);
 end
 
 ## =============================
@@ -954,8 +941,6 @@ for i in 1:nPops_WT
     );
 
     display(f_norm2)
-    # figpath = pwd()*"/";
-    # savefig(f_norm2,figpath*namePops_WT[i]*" - Normalized t0.svg";width=width_f, height=height_f);
 end
 
 ## =============================
@@ -1066,8 +1051,7 @@ for i in eachindex(uni_WT)
     );
 
     display(his)
-    # figpath = pwd()*"/";
-    # savefig(his,figpath*"WT Param $i.svg";width=width_f, height=height_f);
+
 end
 
 for i in eachindex(uni_K27M)
