@@ -74,7 +74,7 @@ This script reads CSV-files and Julia scripts from the [Data](./Data), [Models](
 ```julia
 julia --project=. "Figure visualization/Commands_Figures.jl"
 ```
-This script reads CSV-files and Julia scripts from the [Data](./Data), [Models](./Models), and [Results](./Results) folders. It displays the graphs necessary to recreate Figures 2 and 3A-B and Supplementary Figures S2, S3, S4, and S5. The resulting SVG-files are not stored for 
+This script reads CSV-files and Julia scripts from the [Data](./Data), [Models](./Models), and [Results](./Results) folders. It displays the graphs necessary to recreate Figures 2 and 3A-B and Supplementary Figures S2, S3, S4, and S5.
 
 ## Citations
 If you use any of the data or this code, please cite the associated publication. 
