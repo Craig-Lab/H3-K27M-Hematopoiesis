@@ -1,5 +1,4 @@
-using Statistics, Distributions, DifferentialEquations, StatsBase, PosteriorStats
-using CSV, DataFrames
+using Distributions, DifferentialEquations, PosteriorStats, CSV, DataFrames
 
 function sec2time(dt)
     #Transforms time in seconds to hours:minutes:seconds
