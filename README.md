@@ -10,11 +10,11 @@ Authors: Mia Brunetti<sup>1,2</sup>; Hassan Dakik<sup>3</sup>; Fatemeh Beigmoham
 ## Repository structure
 | Folder | Description |
 |:-----|:------------|
-| Structural identifiability | MATLAB M-files necessary to create the ODE models stored in MAT-files and read by STRIKE-GOLDD.|
-| Data | ... |
-| Models | ... |
-| Parameter estimation | ... |
-| Parsimony analysis | ... |
-| TM-RWFS| ... |
-| Results | ... |
+| Structural identifiability | MATLAB M-files necessary to create the ODE models stored in MAT-files and read by STRIKE-GOLDD. |
+| Data | CSV-files containing the blood cell counts and Julia script initializing the data. |
+| Models | Julia scripts for fitting hematopoiesis ODE models. |
+| Parameter estimation | Adaptive simulated annealing (ASA) functions and commands for parameter estimation. |
+| Parsimony analysis | Functions and commands for parsimony analysis. |
+| TM-RWFS | Trajectory-Matching Random-Walk Feasibility Sampling (TM-RWFS) commands for parameter distribution. |
+| Results | CSV-files containing the results for parameter estimation, accepted model  |
 | Figure visualization | ... |
