@@ -50,12 +50,13 @@ The structural identifiability analysis is done with the MATLAB toolbox STRIKE-G
 ```julia
 julia --project=. "Parameter estimation/Commands_ASA.jl"
 ```
-This script reads the CSV-files and the Julia scripts from the [Data](./Data) and [Models](./Models) folders. It generates the best fit value of the hematopoietic model inlcuded through Adaptive Simulated Annealing (ASA). The ASA runs for both the H3-WT and H3-K27M conditions are saved as CSV-files in the [Results](./Results) folder, under the specific fitted model. 
+This script reads CSV-files and Julia scripts from the [Data](./Data) and [Models](./Models) folders. It generates the best fit value of the hematopoietic model inlcuded through Adaptive Simulated Annealing (ASA). The ASA runs for both the H3-WT and H3-K27M conditions are saved as CSV-files in the [Results](./Results) folder, under the specific fitted model. 
 
 ### 3. Parsimony Analysis
 ```julia
 julia --project=. "Parsimony analysis/Commands_Analysis.jl"
 ```
+This script reads CSV-files and Julia scripts from the [Data](./Data), [Models](./Models), and [Results](./Results) folders.
 
 ### 4. Trajectory-Matching Random-Walk Feasibility Sampling (TM-RWFS)
 ```julia
