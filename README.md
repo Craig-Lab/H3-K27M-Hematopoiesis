@@ -62,6 +62,7 @@ This script reads CSV-files and Julia scripts from the [Data](./Data), [Models](
 ```julia
 julia --project=. "TM-RWFS/Commands_TrajectoryMatching.jl"
 ```
+This script reads CSV-files and Julia scripts from the [Data](./Data), [Models](./Models), and [Results](./Results) folders. It generates the accepted trajectories for the selected models for each condition, which are saved as CSV-files in the [Results](./Results) folder.
 
 ### 5. Mann-Whitney U Test
 ```julia
