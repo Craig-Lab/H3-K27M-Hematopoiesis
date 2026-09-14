@@ -45,3 +45,9 @@ Pkg.add([
 ## Workflow
 ### 1. Structural identifiability
 The structural identifiability analysis is done with the MATLAB toolbox STRIKE-GOLDD. Install STRIKE-GOLDD from the software's [repository](https://github.com/afvillaverde/strike-goldd).
+
+## Citations
+If you use any of the data or this code, please cite the associated publication. 
+
+If you use STRIKE-GOLDD in your research, please cite the following paper:
+Villaverde AF, Barreiro A, Papachristodoulou A. Structural identifiability of dynamic systems biology models. PLOS Computational Biology. 2016;12(10):e1005153. doi: 10.1371/journal.pcbi.1005153.
