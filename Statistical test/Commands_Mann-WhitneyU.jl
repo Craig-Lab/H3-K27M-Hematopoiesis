@@ -1,7 +1,7 @@
 using StatsBase, HypothesisTests, CSV, DataFrames
 
 # H3-WT
-CSV.read(joinpath(@__DIR__,"..", "Results", "Accepted Parameters (WT).csv"), DataFrame);
+df_WT = CSV.read(joinpath(@__DIR__,"..", "Results", "Accepted Parameters (WT).csv"), DataFrame);
 p_WT = Matrix(df_WT[:,3:end]);
 labs_WT = labs_WT;
 
