@@ -1,4 +1,4 @@
-using CSV, DataFrames, Distributions, DifferentialEquations, LinearAlgebra, Random, Base.Threads
+using CSV, DataFrames, Distributions, DifferentialEquations, Random, Base.Threads
 
 # Add the name of any of the following model for "bloodModel": 
 # "Combined HSC", "Combined HSC & MPP Self-Renewal", "Combined HSC & MEP Bypass", "Combined HSC & MPP Self-Renewal & MEP Bypass"
