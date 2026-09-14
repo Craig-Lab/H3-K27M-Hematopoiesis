@@ -1,4 +1,4 @@
-using PlotlyJS, LaTeXStrings, CSV, DataFrames, DifferentialEquations, OrdinaryDiffEq, Statistics
+using CSV, DataFrames, DifferentialEquations, OrdinaryDiffEq, Statistics
 
 include("AnalysisFunctions.jl");
 
