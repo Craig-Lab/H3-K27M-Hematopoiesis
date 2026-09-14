@@ -43,8 +43,33 @@ Pkg.add([
 ```
 
 ## Workflow
-### 1. Structural identifiability
+### 1. Structural Identifiability
 The structural identifiability analysis is done with the MATLAB toolbox STRIKE-GOLDD. Install STRIKE-GOLDD from the software's [repository](https://github.com/afvillaverde/strike-goldd). Follow the instructions from the [user manual](https://github.com/afvillaverde/strike-goldd/blob/master/STRIKE-GOLDD/doc/STRIKE-GOLDD_manual.pdf), replacing the `models` folder by the [one](./Structural%20identifiability/models) in this repository.
+
+### 2. Parameter Estimation
+```julia
+
+```
+
+### 3. Parsimony Analysis
+```julia
+
+```
+
+### 4. Trajectory-Matching Random-Walk Feasibility Sampling (TM-RWFS)
+```julia
+
+```
+
+### 5. Mann-Whitney U Test
+```julia
+
+```
+
+### 6. Figure Visualization
+```julia
+
+```
 
 ## Citations
 If you use any of the data or this code, please cite the associated publication. 
