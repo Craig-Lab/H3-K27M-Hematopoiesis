@@ -19,3 +19,23 @@ Authors: Mia Brunetti<sup>1,2</sup>; Hassan Dakik<sup>3</sup>; Fatemeh Beigmoham
 | Statistical test | Mann-Whitney U test on parameter distribution commands. |
 | Results | CSV-files containing the results for parameter estimation, 95% credible intervals, and accepted trajectories for the selected models model. |
 | Figure visualization | Functions, template, and commands for reproducing result figures. |
+
+## Requirements
+- MATLAB R2025b or later for the structural identifiability analysis.
+- Julia 1.11.9 or later.
+- For the Julia environment, the repository does not include a `Project.toml`. Install the required packages as such:
+```julia
+using Pkg
+Pkg.add([
+    "CSV",
+    "DataFrames",
+    "DifferentialEquations",
+    "Distributions",
+    "JLD2",
+    "LsqFit",
+    "PlotlyJS",
+    "StatsBase"
+])
+```
+
+## Repository structure
