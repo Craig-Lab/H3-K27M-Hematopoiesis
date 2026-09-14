@@ -27,15 +27,21 @@ Authors: Mia Brunetti<sup>1,2</sup>; Hassan Dakik<sup>3</sup>; Fatemeh Beigmoham
 ```julia
 using Pkg
 Pkg.add([
+    "PlotlyJS",
     "CSV",
     "DataFrames",
     "DifferentialEquations",
+    "Statistics",
+    "HypothesisTests",
     "Distributions",
-    "JLD2",
-    "LsqFit",
-    "PlotlyJS",
-    "StatsBase"
+    "Random",
+    "Base.Threads",
+    "OrdinaryDiffEq",
+    "StatsBase",
+    "PosteriorStats"
 ])
 ```
 
-## Repository structure
+## Workflow
+### 1. Structural identifiability
+The structural identifiability analysis is done with the MATLAB toolbox STRIKE-GOLDD. Install STRIKE-GOLDD from the software's [repository](https://github.com/afvillaverde/strike-goldd).
