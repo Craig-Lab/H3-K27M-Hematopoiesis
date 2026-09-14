@@ -1,6 +1,8 @@
 using StatsBase, HypothesisTests, CSV, DataFrames
 
 # H3-WT
+bloodModel_WT = "Combined HSC & MPP Self-Renewal"; 
+include(joinpath(@__DIR__, "..", "Models", bloodModel_WT * ".jl"));
 df_WT = CSV.read(joinpath(@__DIR__,"..", "Results", "Accepted Parameters (WT).csv"), DataFrame);
 p_WT = Matrix(df_WT[:,3:end]);
 labs_WT = labs;
