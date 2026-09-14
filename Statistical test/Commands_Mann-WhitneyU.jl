@@ -3,7 +3,7 @@ using StatsBase, HypothesisTests, CSV, DataFrames
 # H3-WT
 df_WT = CSV.read(joinpath(@__DIR__,"..", "Results", "Accepted Parameters (WT).csv"), DataFrame);
 p_WT = Matrix(df_WT[:,3:end]);
-labs_WT = labs_WT;
+labs_WT = labs;
 
 # H3-K27M
 df_K27M = CSV.read(joinpath(@__DIR__,"..", "Results", "Accepted Parameters (K27M).csv"), DataFrame);
